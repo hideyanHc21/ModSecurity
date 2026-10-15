@@ -98,7 +98,7 @@ jobs:
         -DCMAKE_INSTALL_PREFIX="${{ github.workspace }}\iis\release\$installDir" `
         -DCMAKE_TOOLCHAIN_FILE="$env:VCPKG_INSTALLATION_ROOT\scripts\buildsystems\vcpkg.cmake" `
         -DSSDEEP_ROOT="${{ github.workspace }}\ssdeep-install" `
-        -DWITH_SSDEEP=ON `
+        -DWITH_SSDEEP=OFF `
         -A $cmakeArch `
         -DWITH_LUA=ON `
         -DWITH_YAJL=ON `
